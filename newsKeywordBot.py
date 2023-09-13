@@ -57,7 +57,7 @@ if __name__ == '__main__':
     chat_id = '645792572' # 수정2 예) '6250265022'와 같이 숫자로된 10글자 ID 
 
     # 검색할 키워드 설정
-    queries = ["삼성", "삼성카드", "삼성생명", "삼성화재", "삼성증권", "금융감독원"]
+    queries = ["비트코인", "코인", "이더리움", "리플", "알트", "알트코인"]
 
     # 각 키워드에 대해 한 번씩 실행
     for query in queries:
@@ -65,6 +65,6 @@ if __name__ == '__main__':
         time.sleep(1)
     
     # 프로그램이 끝났음을 알리기 위한 메시지 전송
-    bot.sendMessage(chat_id=chat_id, text='크롤링이 완료되었습니다.')
+    bot.sendMessage(chat_id=chat_id, text='뉴스전송이 완료되었습니다.')
 
 # 프로그램 종료
